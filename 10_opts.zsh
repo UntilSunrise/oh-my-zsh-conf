@@ -39,7 +39,7 @@ unsetopt ksh_autoload         # don't do some dark autoload on function call
 unsetopt ksh_typeset          # use zsh typeset
 unsetopt sh_file_expansion    # dont expand filnames first
 unsetopt sh_nullcmd           # use my NULLCMD
-  setopt sh_option_letters    # interprete single option letters a la ksh
+unsetopt sh_option_letters    # interprete single option letters a la ksh
 unsetopt sh_word_split        # `s="a b"; a=($s)' => array of length 1, not 2
 # } 
 
