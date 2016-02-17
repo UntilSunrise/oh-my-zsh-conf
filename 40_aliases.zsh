@@ -85,4 +85,5 @@ alias zshconfig="nano ~/.zshrc"
 
 # MISC {{{
     alias fish='cd ~/fishbot/ && ./fish'
+    alias updateall="yaourt -Syua"
 #}}}
