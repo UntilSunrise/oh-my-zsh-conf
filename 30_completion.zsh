@@ -9,7 +9,7 @@ unsetopt autoname_dirs        # after foo=/absolute/path, ~foo may expand to
   setopt auto_param_keys      # remove trailing spaces after completion if needed
   setopt auto_param_slash     # add slash for directories
 unsetopt auto_remove_slash    # don't remove slash on dirs if word separator added
-unsetopt bash_auto_list       # auto_list is sufficient, i want it on first tab
+  setopt bash_auto_list       # auto_list is sufficient, i want it on first tab
   setopt complete_in_word     # we want completion to be done from cursor in word
 unsetopt glob_complete        # don't generate matches and cycle through them
   setopt hash_list_all        # verify path hash on completion

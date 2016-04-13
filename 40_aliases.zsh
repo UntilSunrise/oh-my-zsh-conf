@@ -85,5 +85,6 @@ alias zshconfig="nano ~/.zshrc"
 
 # MISC {{{
     alias fish='cd ~/fishbot/ && ./fish'
-    alias updateall="yaourt -Syua"
+    alias ua="yaourt -Syua"
+    alias um="sudo reflector --country 'Germany' -l 50 -f 10 -p http --sort rate --save /etc/pacman.d/mirrorlist"
 #}}}
