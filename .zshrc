@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# fixes ssh-sessions
+export TERM=xterm-256color
+
 bindkey -e
 
 # Set name of the theme to load.
