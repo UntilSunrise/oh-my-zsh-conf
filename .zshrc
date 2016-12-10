@@ -58,7 +58,7 @@ plugins=(git extract colored-man-pages command-not-found common-aliases systemd 
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/sunrise/.gem/ruby/2.3.0/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

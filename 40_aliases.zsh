@@ -35,7 +35,6 @@ alias zshconfig="nano ~/.zshrc"
     alias mkdir='mkdir -p -v'
     alias more='less'
     alias nano='nano -w'
-    alias ping='ping -c 5'
   #}}}
   # PRIVILEGED ACCESS {{{
     if ! $_isroot; then
@@ -67,6 +66,7 @@ alias zshconfig="nano ~/.zshrc"
       alias pacind='pacman -S --asdeps'     # Install given package(s) as dependencies of another package
       alias pacclean="pacman -Sc"           # Delete all not currently installed package files
       alias pacmake="makepkg -fcsi"         # Make package from PKGBUILD file in current directory
+      alias paccleanlonely='pacman -Rsn `pacman -Qdtq`'
     fi
   #}}}
   # MULTIMEDIA {{{
@@ -88,3 +88,5 @@ alias zshconfig="nano ~/.zshrc"
     alias ua="yaourt -Syua"
     alias um="sudo reflector --country 'Germany' -l 50 -f 10 -p http --sort rate --save /etc/pacman.d/mirrorlist"
 #}}}
+
+alias xctu="sudo env UBUNTU_MENUPROXY=0 GTK2_RC_FILES=$GTK2_RC_FILES:/opt/xctu/.gtkrc-eclipse /opt/xctu/app xctu &"
