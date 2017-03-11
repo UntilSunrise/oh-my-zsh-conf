@@ -1,4 +1,4 @@
 # ENTER AND LIST DIRECTORY{{{
-    function cd() { builtin cd -- "$@" && { [ "$PS1" = "" ] || ls -hrt --color; }; }
+    function cd() { builtin cd -- "$@" && { [ "$PS1" = "" ] || ls -hrt --color --group-directories-first; }; }
 #}}}
 
