@@ -2,6 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # fixes ssh-sessions
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export TERM=xterm-256color
 
 bindkey -e
