@@ -84,6 +84,6 @@ alias zshconfig="nano ~/.zshrc"
 #}}}
 
 # MISC {{{
-    alias ua="pacaur -Syua"
+    alias ua="pacaur -Syu"
     alias um="sudo reflector --country 'Germany' -l 50 -f 10 -p http --sort rate --save /etc/pacman.d/mirrorlist"
 #}}}
