@@ -1,7 +1,7 @@
 # zsh generic options
 
 # { initialisation
-  setopt all_export           # define = export
+  #setopt all_export           # define = export
 unsetopt global_export        # local vars are not globals one
   setopt global_rcs           # use global rcs
  #setopt rcs                  # source all /etc rcs
